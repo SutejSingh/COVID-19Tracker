@@ -1868,15 +1868,15 @@ footer a:hover {
 
 /* --------------------------------
 
-08.PRICING
+08.Tracking
 
 -------------------------------- */
 
-.pricing {
+.tracking {
 	padding: 100px 0 50px 0;
 }
 
-.pricing h2{
+.tracking h2{
 		text-transform: uppercase;
 	  letter-spacing: 5px;
 	  color: #000;
