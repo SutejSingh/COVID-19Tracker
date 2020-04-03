@@ -125,6 +125,10 @@ ul.social-icons li a:hover{
     margin-top: 3.5%;
 }
 
+.marginBottom{
+   margin-bottom: 3.5%; 
+}
+
 /*============iFrame mods==========*/
 
 .shadowLB{
@@ -170,6 +174,10 @@ box-shadow: 36px -10px 153px -48px rgba(0,0,0,0.44);
     width: 100%;
     height: 100%;
     border: 0;
+}
+
+.part{
+    padding-right: 2%;
 }
 
 .paddingB{
@@ -2045,10 +2053,17 @@ footer a:hover {
 		color: #777;
 }
 
-.newsletter{
+.ctaboxR{
 		border-left: 1px dashed #e0e0e1;
     padding-left: 50px;
 }
+
+.ctaboxL{
+    border-right: 1px dashed #e0e0e1;
+    padding-right: 50px;
+}
+
+
 
 #submit_btn {
     color: #777;
@@ -2293,6 +2308,26 @@ ul.social-icons li i{
 13.SERVICES PAGE
 
 -------------------------------- */
+
+ul.servicesRight-list li:before {
+    font-family: "Linearicons-Free";
+    content: '\e876';
+    position: absolute;
+    left: 0;
+    color: #777;
+		font-weight: bold;
+}
+
+ul.servicesRight-list li{
+		list-style: none;
+		position: relative;
+		margin-bottom: 15px;
+		padding: 0 25px;
+		color: #777;
+		text-transform: uppercase;
+		font-size: 12px;
+		letter-spacing: 1px;
+}
 
 ul.services-list li:before {
     font-family: "Linearicons-Free";
