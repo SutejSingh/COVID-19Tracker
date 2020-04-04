@@ -185,6 +185,10 @@ box-shadow: 36px -10px 153px -48px rgba(0,0,0,0.44);
     padding-top: 5%;
 }
 
+.paddingBottom{
+    padding-bottom: 2%;
+}
+
 /* #####  diagram skills  ##### */
 
 .skills {
